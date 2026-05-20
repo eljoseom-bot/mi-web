@@ -42,6 +42,14 @@
       box-shadow: 0 12px 50px rgba(56, 189, 248, 0.18);
     }
 
+    .main-image {
+      width: min(760px, 100%);
+      margin: 40px auto 0;
+      display: block;
+      border-radius: 32px;
+      box-shadow: 0 20px 70px rgba(56, 189, 248, 0.18);
+    }
+
     .hero p {
       opacity: 0.9;
       font-size: 18px;
@@ -153,18 +161,21 @@
 
 <body>
 
-  <header class="hero">
-    <h1>🚀 Consultor de SEO Profesional</h1>
-    <p>Posicionamos tu negocio en Google y aumentamos tus clientes</p>
+  <main>
+    <header class="hero">
+      <h1>🚀 Consultor de SEO Profesional</h1>
+      <p>Posicionamos tu negocio en Google y aumentamos tus clientes</p>
 
-    <img class="hero-image" src="/seo-hero.svg" alt="Ilustración de servicio SEO" />
+      <img class="hero-image" src="/seo-hero.svg" alt="Ilustración de servicio SEO" />
 
-    <a href="/servicios" class="btn">
-      Quiero mejorar mi SEO
-    </a>
-  </header>
+      <a href="/servicios" class="btn">
+        Quiero mejorar mi SEO
+      </a>
+    </header>
 
-  <section class="section">
+    <img class="main-image" src="/writing-hero.svg" alt="Persona escribiendo un borrador para SEO" />
+
+    <section class="section">
     <h2>Servicios</h2>
 
     <div class="grid">
@@ -190,11 +201,12 @@
     <p>Estrategias SEO reales que generan clientes, no promesas vacías.</p>
   </section>
 
-  <section class="section contacto" id="contacto">
-    <h2>Contacto</h2>
-    <p>Te hacemos una auditoría gratuita</p>
-    <a class="btn" href="mailto:contacto@tuweb.com">Enviar Email</a>
-  </section>
+    <section class="section contacto" id="contacto">
+      <h2>Contacto</h2>
+      <p>Te hacemos una auditoría gratuita</p>
+      <a class="btn" href="mailto:contacto@tuweb.com">Enviar Email</a>
+    </section>
+  </main>
 
   <footer>
     © 2026 Agencia SEO
